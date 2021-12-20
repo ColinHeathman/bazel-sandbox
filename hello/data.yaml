@@ -1,0 +1,7 @@
+data:
+  message:
+  - hello
+  - there
+  response:
+  - general
+  - kenobi

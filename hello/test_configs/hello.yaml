@@ -1,0 +1,11 @@
+schemaVersion: 2.0.0
+
+commandTests:
+  - name: "yq hello"
+    command: "yq"
+    args: ["-r", "(.data.message[0]) (.data.message[1])", data.yaml]
+    expectedOutput: ["hello there"]
+  - name: "yq response"
+    command: "yq"
+    args: ["-r", "(.data.response[0]) (.data.response[1])", data.yaml]
+    expectedOutput: ["general kenobi"]
