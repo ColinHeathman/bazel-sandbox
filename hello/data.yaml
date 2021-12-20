@@ -5,3 +5,7 @@ data:
   response:
   - general
   - kenobi
+  extra:
+  - a
+  - fine
+  - addition
